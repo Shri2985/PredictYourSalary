@@ -8,7 +8,7 @@ import pandas as pd
 
 # database setup
 # Configure settings for RDS
-rds_connection_string = "root:RamNivas08@predictyoursalary.cruwlreaual5.us-east-2.rds.amazonaws.com:5432/predictyoursalary"
+rds_connection_string = "root:RamNivas08@predictyoursalary.cphnsish2bbn.us-east-2.rds.amazonaws.com:5432/predictyoursalary"
 engine = create_engine(f'postgresql://{rds_connection_string}')
 
 # reflect an existing database into a new model
